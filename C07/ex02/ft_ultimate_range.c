@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include <stdlib.h>
 
 int	ft_ultimate_range(int **range, int min, int max)
@@ -32,13 +31,5 @@ int	ft_ultimate_range(int **range, int min, int max)
 		array[i] = min++;
 		i++;
 	}
-	return size;
-}
-
-int main()
-{
-	int *A;
-	int size = ft_ultimate_range(&A, 13, 39);
-	for (int i = 0; i < size; i++)
-		printf("%d\n", A[i]);
+	return (size);
 }
