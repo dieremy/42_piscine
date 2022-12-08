@@ -26,14 +26,15 @@ int	ft_strlen(char *str)
 char	*ft_strdup(char *src)
 {
 	char *dest;
-	int	len;
 	int	i;
-
-	len = ft_strlen(src) - 1;
-	dest = (char*)malloc(len * sizeof(char) + 1);
-	if (!dest)
-		return 0;
-	while (i <= len)
+	
+	i = 0;
+	while (src[i])
+		i++;
+	if (!(dest = (char*)malloc(sizeof(char) * (i + 1))))
+		return (0);
+	i = 0;
+	while (src[i])
 	{
 		dest[i] = src[i];
 		i++;
