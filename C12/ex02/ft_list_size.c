@@ -13,7 +13,7 @@ int	ft_list_size(t_list *begin_list)
 	return (count);
 }
 
-#include <stdio.h>
+/*#include <stdio.h>
 t_list	*ft_create_elem(void *data)
 {
 	t_list *new;
@@ -53,4 +53,4 @@ int main()
 	head->next->next = ft_create_elem(x);
 	display(head);
 	printf("size of head = %d\n", ft_list_size(head));
-}
+}*/
