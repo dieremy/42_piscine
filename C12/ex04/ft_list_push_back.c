@@ -29,7 +29,7 @@ void	ft_list_push_back(t_list **begin_list, void *data)
 
 }
 
-#include <stdio.h>
+/*#include <stdio.h>
 void	display(t_list *n)
 {
 	int	i;
@@ -61,4 +61,4 @@ int main()
 
 	ft_list_push_back(&head, "how you doing?");
 	display(head);
-}
+}*/
