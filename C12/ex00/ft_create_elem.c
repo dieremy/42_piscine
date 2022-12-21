@@ -15,7 +15,7 @@ void display(t_list *n)
 {
 	while (n != NULL)
 	{
-		printf("%d\n", *(int*)n->data);
+		printf("%d\n", n->data);
 		n = n->next;
 	}
 }
