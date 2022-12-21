@@ -78,18 +78,3 @@ char	**ft_split(char *str, char *charset)
 	split[j] = '\0';
 	return (split);
 }
-
-#include <stdio.h>
-
-int main(int ac, char **av)
-{
-	int i = 0;
-	char** split = ft_split(av[1], av[2]); 
-	while (split[i])
-	{
-		printf("%s\n", split[i]);
-		i++;
-	}
-
-	return 0;
-}
