@@ -33,7 +33,7 @@ void display(t_list *d)
 {
 	while (d != NULL)
 	{
-		printf("[%d] ", *(int*)d->data);
+		printf("[%d] ", d->data);
 		d = d->next;
 	}
 }
