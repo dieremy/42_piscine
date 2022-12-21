@@ -1,5 +1,5 @@
 #include "ft_list.h"
-
+/*
 t_list	*ft_create_elem(void *data)
 {
 	t_list	*new;
@@ -12,7 +12,7 @@ t_list	*ft_create_elem(void *data)
 	}
 	return (new);
 }
-
+*/
 t_list	*ft_list_push_strs0(int size, char **strs)
 {
 	t_list	*el1;
@@ -43,7 +43,7 @@ t_list	*ft_list_push_strs1(int size, char **strs)
 	elem->next = ft_list_push_strs1(size - 1, strs);
 	return (elem);
 }
-
+/*
 #include <stdio.h>
 
 void	display(t_list *n)
@@ -84,4 +84,4 @@ int main()
 
 	testa = ft_list_push_strs1(3, array);
 	display(testa);
-}
+}*/
