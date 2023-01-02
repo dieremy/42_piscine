@@ -80,7 +80,7 @@ int main()
 	array = (char**)malloc(sizeof(char*) * 3);
 	array[0] = "they";
 	array[1] = "are";
-	array[2] = "watching";
+	array[2] = "here";
 
 	testa = ft_list_push_strs1(3, array);
 	display(testa);
